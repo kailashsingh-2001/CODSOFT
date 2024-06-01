@@ -1,0 +1,25 @@
+@media screen and (max-width:900px) {
+    .button{
+        /* flex-wrap: nowrap; */
+
+    }
+    
+    
+}
+/* mobile device */
+@media screen and (max-width: 480px) {
+    
+    .container {
+      background-color: lightgreen;
+    }
+    
+    .inner-container{
+        width: 100%;
+    }
+  }
+
+
+  /* tablet */
+@media  screen and(max-width:768px) {
+    
+}
