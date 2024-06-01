@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style></style>
+
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <div class="output">
+          <input type="display" id="display" />
+          <button id="clear">Ac</button>
+          <button id="clea">clear</button>
+        </div>
+        <div class="button">
+          <button class="btn">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+          <button class="btn">=</button>
+          <button class="btn">4</button>
+          <button class="btn">5</button>
+          <button class="btn">6</button>
+          <button class="btn">+</button>
+          <button class="btn">7</button>
+          <button class="btn">8</button>
+          <button class="btn">9</button>
+          <button class="btn">-</button>
+          <button class="btn">/</button>
+          <button class="btn">0</button>
+          <button class="btn">%</button>
+          <button class="btn">*</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      let btn = document.querySelectorAll("button");
+      for (let i of btn) {
+        i.onclick = function () {
+          if (i.innerText == "=") {
+            let a = document.querySelector("input").value;
+            // console.log(eval(a))
+            document.querySelector("input").value = eval(a);
+          } else if (i.innerText == "Ac") {
+            document.querySelector("input").value = " ";
+          } else if (i.innerText == "clear") {
+            document.querySelector("input").value = slice(0, -1);
+          } else {
+            document.querySelector("input").value += i.innerText;
+          }
+        };
+      }
+    </script>
+  </body>
+</html>
