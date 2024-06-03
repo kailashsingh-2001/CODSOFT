@@ -4,59 +4,80 @@
   box-sizing: border-box;
 }
 .container {
-    border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 100%;
   height: 100vh;
-  /* background-color: rgb(13, 13, 13); */
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .inner-container {
-    width: 40%;
-    height: 70%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid  rgb(13, 153, 246);
-  }
+  width: 40%;
+  height: 90%;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(6, 12, 16);
+}
 .output {
-  border: 1px solid rgb(213, 246, 2);
+  /* border: 3px solid rgb(213, 246, 2); */
+  border-radius: 10px;
   width: 100%;
-  height: 20%;
+  height: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .output input {
-  width: 60%;
-  height: 80%;
+  background-color: #474b6b;
+  text-align: end;
+
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  border: none;
+
+  width: 100%;
+  height: 100%;
 }
 .output button {
-    margin: 5px 5px;
+  margin: 5px 5px;
   width: 25%;
   height: 80%;
 }
-
-
-
+#clear {
+  width: 20%;
+  height: 60%;
+  border: none;
+}
 .button {
-    border: 1px solid rgb(162, 0, 255);
-   /* height: 50%; */
+  height: 70%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+
+  flex-wrap: wrap;
 }
 
-.btn{
-    width: 20%;
-    height:60%;
-    border: none;
-    font-size: 22px;
-    font-weight: 600;
-    
-    margin: 5px 5px;
-    /* padding: 10px 10px; */
+#ac {
+  background-color: rgb(241, 230, 8);
+}
+#per {
+  background-color: rgb(10, 196, 253);
+  color: black;
+}
+
+.btn {
+  border: none;
+  width: 22%;
+  height: 60px;
+  border-radius: 10px;
+  margin: 3px 3px;
+  background-color: #474b6b;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
 }
