@@ -219,7 +219,7 @@
   }
   
   .container2{
-   width: 100%;
+   /* width: 100%; */
    border: 2px solid rgb(230, 9, 145);
    display: flex;
    justify-content: space-evenly;
