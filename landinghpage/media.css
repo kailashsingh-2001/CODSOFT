@@ -1,0 +1,51 @@
+@media screen and (max-width: 480px){
+    nav{
+        display: flex;
+        
+    }
+    nav .inner-nav1{
+        
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        font-size: 30px;
+        
+    }
+
+    .menu{
+        width:10%;
+        height: 100%;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+    .inner-nav{
+
+        display: none;
+    }
+    
+   
+    .main{
+        width: 100%;
+        font-size: 14px;
+        height: 5vh;
+    }
+    .slideshow-container {
+        width: 100%;
+        height: 40vh;
+    }
+    .images{
+    
+
+    }
+    .cyco{
+        width: 100%;
+
+    }
+    .card{
+        width: 100%;
+    }
+
+}
