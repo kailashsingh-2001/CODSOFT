@@ -44,5 +44,7 @@
     .card{
         width: 100%;
     }
-
+    .inner-footer{
+        width: 100%;
+    }
 }
