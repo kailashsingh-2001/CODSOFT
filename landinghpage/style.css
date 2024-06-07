@@ -273,30 +273,56 @@ nav {
 .contact-cont {
   border: 1px solid blue;
   width: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.inner-contact-map{
+  height: 70vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+
+}
+
+
+
+
+
 .inner-contact-cont{
   border: 1px solid black;
-  width: 80%;
+  width: 50%;
+  height: 70vh;
   display: flex;
   justify-content:space-evenly;
   flex-wrap: wrap;
-  padding: 10px 10px;
-  /* align-items: center; */
+  /* padding: 10px 10px; */
+  align-items: center;
+  flex-direction: column;
 
 }
 .inner-contact-cont input{
   padding: 10px 10px;
-  width: 30%;
+  width: 100%;
 
 }
+.contact-button{
+  border: 1px solid black;
+  width: 85%;
+}
 
-.inner-contact-cont button{
+.contact-button button{
   background-color: rgb(39, 167, 218);
   color: white;
   width:100px;
+  padding: 10px ;
+  border-radius: 10px ;
+
+
+
   border: none;
 }
 
