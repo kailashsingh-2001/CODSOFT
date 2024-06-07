@@ -174,20 +174,47 @@ nav {
 
 .brands {
   border: 2px solid rgb(18, 18, 18);
+  background-color:black;
   height: 70vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
  
 }
 .inner-brands{
   border: 1px solid red;
-  width: 100%;
+   background-color:white;
+  width: 90%;
   height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
-.brand-images img{
+.brand-images{
+  /* border: 1px solid black; */
+  border-radius: 10px ;
+  /* background-color: black; */
+ 
   width: 50%;
   height: 50%;
+  margin: 10px 10px;
+  transition:opacity 0.8s ease;
+}
+.brand-images img{
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.brand-images:hover{
+  width:60%;
+  height:60% ;
+  transition-delay: 0.4s;
+  /* transform: scale(1.1); */
+  opacity: 0.5; 
+  
 }
 
 
@@ -262,7 +289,7 @@ nav {
 }
 .inner-contact-cont input{
   padding: 10px 10px;
-  width: 300px;
+  width: 30%;
 
 }
 

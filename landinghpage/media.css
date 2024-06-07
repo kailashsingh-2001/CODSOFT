@@ -44,6 +44,10 @@
     .card{
         width: 100%;
     }
+    .inner-contact-cont input{
+        width: 100%;
+    }
+    
     .inner-footer{
         width: 100%;
     }
