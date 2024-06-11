@@ -19,73 +19,66 @@
 
 <body>
   <div class="nav-bar">
-    <div class="log"></div>
+    <div class="nav-log">
+      <img src="https://www.jaipurlove.com/wp-content/uploads/2023/02/Om-Lappy-Store1-540x480.jpg" alt="">
+    </div>
     <div class="nav-content">
       <ul>
       <li>Home</li>
       <li>About us</li>
       <li>Products</li>
       <li>Reviews</li>
-      <li><i class="fa-brands fa-whatsapp"></i>
-        <i class="fa-solid fa-cart-shopping"></i></li>
+      <li>contact us</li>
     </ul>
     </div>
+    <div class="searchitem">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="search" placeholder="search for products">
+    </div>
+    <div class="side-bar">
+      <button id="opennav"><i class="fa-solid fa-bars"></i></button>
+    </div>
 
 
   </div>
-  <!-- <div class="nav-bar"> -->
-    <!-- <div class="menu">
-      <button onclick="click()"><i class="fa-solid fa-bars" id="opennav"></i></button>
-      <div class="openr">
-        <ul>
-          <li>home</li>
-          <li>contact</li>
-          <li>address</li>
-        </ul>
-      </div> -->
+  <!--  open side bar -->
 
-
-    <!-- </div> -->
-    <!-- <div class="inner-nav1">
-
-      <p>COMPUTER</p>
+  <div class="menu-bar">
+    <div>
+      <button id="closenav">x</button>
     </div>
-
-    <div class="inner-nav">
-      
-
+    <div class="side-bar-content">
+      <ul>
+      <li>Home</li>
+      <li>About us</li>
+      <li>Products</li>
+      <li>Reviews</li>
+      <li>contact us</li>
+    </ul>
     </div>
-
-  </nav> -->
-  <div class="searchitem">
-    <input type="search" class="search" placeholder="search for products">
+    <div class="menu-bar-search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="search" placeholder="search for products">
+    </div>
   </div>
-</div>
+  <!-- closed side bar -->
+ 
+
 <div class="main">
   <marquee behaviour="slide" direction="right">Get 2% Instant CashBack on every Prepaid Order this Month. Shipping Chgs- 80/- COD Chgs-100/-</marquee>
 </div> 
 
 
-  <div class="slideshow-container">
-    <div class="mySlides fade">
-   
-
-      <img src="https://cdn.mos.cms.futurecdn.net/Ajc3ezCTN4FGz2vF4LpQn9-1200-80.jpg">
+ 
+  <div class="slider">
+    <div class="slides">
+        <div class="slide"><img src="https://images.unsplash.com/photo-1491472253230-a044054ca35f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D" alt="Image 1"></div>
+        <div class="slide"><img src="https://www.hindustantimes.com/ht-img/img/2024/02/22/550x309/best_laptops_under_Rs_50000_1708591575603_1708591591982.jpg" alt="Image 2"></div>
+        <div class="slide"><img src="https://cdn.mos.cms.futurecdn.net/Ajc3ezCTN4FGz2vF4LpQn9-1200-80.jpg" alt="Image 3"></div>
     </div>
-    <div class="mySlides fade">
-      <img
-        src="https://www.hindustantimes.com/ht-img/img/2024/02/22/550x309/best_laptops_under_Rs_50000_1708591575603_1708591591982.jpg">
-    </div>
-
-    <div class="mySlides fade">
-      <img
-        src="https://images.unsplash.com/photo-1491472253230-a044054ca35f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D">
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-
+    <button class="prev"  id="btnprev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" id="btnprev" onclick="moveSlide(1)">&#10095;</button>
+</div>
 
 
 
@@ -240,7 +233,7 @@
               <p>Consistent 2GB DDR3 </p>
               <P>Desktop Ram</P>
               <p> ₹325.00</p>
-              <button class="plus">book now</button>
+              <!-- <button class="plus">book now</button> -->
             </div>
 
           </div>
@@ -256,7 +249,7 @@
               <p>Consistent 2GB DDR3 </p>
               <P>Desktop Ram</P>
               <p> ₹325.00</p>
-              <button class="plus">book now</button>
+              <!-- <button class="plus">book now</button> -->
             </div>
 
           </div>
@@ -272,7 +265,7 @@
               <p>Consistent 2GB DDR3 </p>
               <P>Desktop Ram</P>
               <p> ₹325.00</p>
-              <button class="plus">book now</button>
+              <!-- <button class="plus">book now</button> -->
             </div>
 
           </div>
@@ -288,7 +281,7 @@
 
       </div>
     </div>
-    <div class="">
+    <div class=" reviews">
       <div>
         <h1>Our Reviews</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam rem qui quia architecto nihil, harum voluptas
@@ -391,6 +384,15 @@
         </ul>
       </div>
     </div>
+
+
+
+    <!--
+    slider-->
+   
+
+
+    <!-- ended -->
 
 
     <script src="script.js"></script>
