@@ -315,8 +315,34 @@
   width: 100%;
 }
 /* reviews */
-.reviews-cont{
+
+
+.reviews{
+  border: 1px solid red;
   background-color: black;
+}
+.reviews-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+.reviews-description h1{
+  color: white;
+}
+.reviews-description p{
+  color: white;
+}
+.reviews-description hr{
+  color: red;
+}
+
+
+
+.reviews-cont{
+  /* background-color: black; */
   border: 1px solid black;
   width: 100%;
   display: flex;
