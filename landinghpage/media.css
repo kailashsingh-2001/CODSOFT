@@ -24,6 +24,9 @@
         width: 100%;
 
     }
+    .inner-brands{
+        flex-wrap: wrap;
+    }
     .card{
         width: 100%;
     }
