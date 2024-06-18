@@ -46,10 +46,15 @@
     .inner-contact-cont{
         width: 100%;
     }
+
+    .ourreviews{
+        width: 100%;
+    }
+    .review-para{
+        width: 100%;
+    }
 /* footer */
-.{
-    
-}
+
 .lowerberth{
  flex-wrap: wrap;
 }
@@ -63,9 +68,12 @@
  /* ended */
 
 
-@media  screen and (min-width:768px) {
+@media  screen and (max-width:768px) {
     .menu-bar{
         display: none;
+    }
+    .lowerberth{
+        flex-wrap: wrap;
     }
     
 }

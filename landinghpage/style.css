@@ -154,25 +154,8 @@
 .next {
   right: 10px;
 }
-
-
-
-
-
-
 /* ended */
-.linear {
-  width: 100%;
-  height: 100%;
-  background: black;
-  opacity: 0.55;
-}
 
-.nag {
-  border-radius: 10px;
-  width: 100%;
-  height: 100%;
-}
 
 /* product categories */
 .images {
@@ -182,13 +165,22 @@
 }
 
 .innerimages1 {
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.innerimages1 h2{
   text-align: center;
-  font-size: 20px;
+  font-size: 35px;
   font-family: sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
+  text-transform: capitalize;
 }
 
 .innerimages2 {
+  padding: 10px 10px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -210,7 +202,13 @@
   height: 300px;
   margin: 5px 5px;
   border-radius: 10px;
-  
+}
+.cyco h2{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+
 }
 .cyco:hover{
   box-shadow: 2px 2px 2px 2px rgb(122, 117, 117) ;
@@ -229,17 +227,16 @@
 
 /* started brands we offer */
 .brands-cont {
-  
+  margin-top: 30px;
   background-color: rgb(235, 235, 235);
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
- 
+  padding: 15px;
 }
 .brands-heading{
-  /* border: 1px solid black; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -251,21 +248,16 @@
   font-weight: 700;
   font-size: 40px;
   font-family: sans-serif;
-
-
-
+  text-align: center;
 }
 .inner-brands{
-  /* border: 1px solid red; */
+  padding: 10px 10px;
   width: 90%;
   display: flex;
   justify-content:space-evenly;
   align-items: center;
- 
-
 }
 .brand-images{
-  /* border: 1px solid rgb(9, 229, 112); */
   border-radius: 10px ;
   width: 100px;
   height:20vh;
@@ -281,8 +273,8 @@
   box-shadow: 2px 2px 2px 2px gray;
   transform: scale(1.1);
   transition-delay: 0.5s; 
-  
 }
+
 /* ended brands we offer */
 
 
@@ -393,42 +385,52 @@
 }
 
 /* cards ended */
+
+
 /* reviews */
-
-
 .reviews{
-  /* border: 1px solid red; */
   background-color:#322828;
-
-  /* height: 80vh; */
-  /* border-radius: 10px ; */
 }
 .reviews-description{
-  height: 25vh;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   flex-direction: column;
 }
-.reviews-description h1{
-  color: white;
+.ourreviews{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
 }
-.reviews-description p{
+.ourreviews h1{
   color: white;
+  font-weight: bolder;
+  font-family: sans-serif;
+  font-size: 35;
+  text-align: center;
+}
+.review-para{
+  margin: 2px 10px;
+  width: 40%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.review-para p{
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
 }
 .hr{
-  
   border:3px solid rgb(12, 202, 139);
   border-radius: 10px;
   width: 30%;
 }
-
-
-
 .reviews-cont{
-  /* border: 1px solid red; */
   width: 100%;
-  /* height: 70%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -446,7 +448,6 @@
 
 }
 .reviews-image{
-  /* border: 1px solid white; */
   height: 20vh;
   display: flex;
   justify-content: center;
@@ -457,15 +458,13 @@
   width: 35%;
 }
 .reviews-content{
-  
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
- 
-}
+ }
+
 .reviews-des{
-  
   height: 30vh;
   display: flex;
   justify-content: center;
@@ -474,7 +473,6 @@
 }
 
 .reviewer-image{
-  
   background-color:#2e2323;
   display: flex;
   width: 100px;
@@ -488,33 +486,12 @@
   width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* reviews ended */
-
-
-
-
-
-
-
-
-
-
 
 /* contact information */
 .contact-cont {
-  border: 1px solid blue;
+ 
   width: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -525,85 +502,85 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 10px;
+ 
 
 }
-
-
-
-
-
 .inner-contact-cont{
-  border: 1px solid black;
-  width: 50%;
   height: 70vh;
+  width: 50%;
+ 
   display: flex;
-  justify-content:space-evenly;
+  justify-content: center;
+  align-items: center;
+}
+.inner-contact-cont1{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content:center;
   flex-wrap: wrap;
-  /* padding: 10px 10px; */
   align-items: center;
   flex-direction: column;
-
+  margin: 10px 10px;
 }
-.inner-contact-cont input{
-  padding: 10px 10px;
-  width: 100%;
 
+.contact-input{
+ width: 100%;
+ height: 70%;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ 
+}
+.contact-input input{
+  padding: 10px;
+  margin-top: 10px ;
+  width: 99%;
 }
 .contact-button{
-  border: 1px solid black;
-  width: 85%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .contact-button button{
   background-color: rgb(39, 167, 218);
   color: white;
-  width:100px;
+  width:150px;
   padding: 10px ;
   border-radius: 10px ;
   border: none;
+  
 }
+/* ended contact */
 
 
-/* lowest Footer section */
+/*  Footer section */
 .lowest{
   width: 100%;
-  
   background-color: rgb(242, 242, 242);
 }
 
 .mny{
   width: 95%;
-  /* border: 2px solid black; */
-  /* height: 80vh; */
   margin: auto;
-}
-.upberth{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-}
-
-
-.India,.English{
-  padding:0.4rem 2rem;
-  font-size: 1.1rem;
-  border-radius: 5px;
-  cursor: pointer;
 }
 .lowerberth{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red; */
-  flex-wrap: wrap;
+  
 }
 .lw{
   width:200px;
   height: 45vh;
-  /* border: 2px solid red; */
   margin: 10px 10px;
+
+}
+.lw h2{
+  font-weight: 500;
+  font-family: 'Poppins',sans-serif;
+  text-transform: uppercase;
 
 }
 .lw h1{
@@ -635,11 +612,26 @@
   margin-left: 3vw;
   cursor: pointer;
 }
+.upberth{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  
+}
 .lne{
   width: 100%;
-  background-color: gray;
-  height: 0.1vh;
-  margin-top: 8vh;
-  margin-bottom: 4vh;
+  background-color: rgb(220, 219, 219);
+  padding: 10px 10px;
+ 
 }
+.lne p{
+  color: rgb(22, 19, 19);
+  text-align: center;
+  font-family: sans-serif;
+  font-weight:500;
+  text-transform: capitalize;
+  
+}
+/* ended footer */
 
